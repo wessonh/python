@@ -4,7 +4,7 @@
 #Caesar Cipher - HANDLES THE SPACES VERSION
 
 # This program allow the user to encrypt or decrypt text using a 3 letter shift.
-# you can choose to encrypt, decrypt or press no to-quit. This menu ignores
+# you can choose to encrypt, decrypt or press no to quit. This menu ignores
 # leading and trailing white spaces and is not case sensitive. Encrypting
 # and decrypting will ignore non letter characters, ignores trailing
 # white spaces and is not case-sensitive.
