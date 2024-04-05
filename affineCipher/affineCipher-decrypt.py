@@ -3,10 +3,6 @@
 # Sd 250
 # Assignment 10
 
-# This was tricky, I noticed some minor errors that were preventing the encryption and decryption
-# from working correctly so the message was not decrypting in the same format as it originally looked.
-# I also had to add some symbols to the SYMBOLS variable beacuse it wasn't handling the quotations
-# correcly. I got it to work in the end though. 
 import sys
 import pyperclip
 import cryptomath
