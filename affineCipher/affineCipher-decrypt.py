@@ -63,9 +63,7 @@ def encryptMessage(key, message):
 
     return ciphertext
 
-def decryptMessage(key, message): # I had to modify this to get the spacing to be correct
-                                  # It kept wanting to add a tab in stead of a space at 
-                                  # one part of the message. I fixed it. 
+def decryptMessage(key, message): 
     keyA, keyB = getKeyParts(key)
     checkKeys(keyA, keyB, 'decrypt')
     plaintext = ''
@@ -90,10 +88,7 @@ def decryptMessage(key, message): # I had to modify this to get the spacing to b
 
     return plaintext
 
-def getRandomKey(): # noticed this fucntion wasn't being used, I was having trouble trying to
-    # get this to work properly. I am going to mess with this more on my own to see if I can
-    # use it instead of the provided key. It resets when I run the program again after switching
-    # the myMode to decrypt so the decryption doesn't work. I just kept 2894 in the meantime. 
+def getRandomKey():  
     while True:
         keyA = random.randint(2, len(SYMBOLS))
         keyB = random.randint(2, len(SYMBOLS))
